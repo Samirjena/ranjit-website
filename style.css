@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: blanchedalmond;
+    
+    font-family:'Fira sans', sans-serif;
+    height: 100vh;
+    transition: transform 0.4s ease-in;
+}
+.sidebar nav {
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 33px 0;
+  
+}
+.sidebar nav li a{
+ text-decoration: none;
+ color: black;
+  
+} 
+.main{
+    /*background-color: yellow;*/
+    width:90vw;
+    padding: 4px;
+}
+.contanier{
+    display: flex;
+}
+.infocontanier{
+    /*background-color: rgb(202,9,128);*/
+    height:78vh;
+    width:100vh;
+    margin: 144px auto ;
+    display: flex;
+    justify-content: space-around;
+}
+.devpic img{
+   height:78vh;
+}
+.devinfo{
+    display:flex;
+justify-content: center;
+    flex-direction: column;
+}
+.hello{
+font-size: 53px;
+}
+.name{
+    font-size: 30px;
+    font-weight: bold;
+}
+.about{
+    font-size: 20px;
+}
+.moreabout{
+    font-size: 10px;
+    font-weight: bold;
+}
+.buttons{
+    margin-top: 27PX;
+}
+.buttons button{
+    padding: 9px;
+    border-radius: 24px;
+    color: white;
+    background: darkblue;
+    font-weight: bold;
+    margin: 0 3 px;
+}
+.buttons button:hover{
+    background-color: white;
+    color: darkblue;
+}
+.contactme{
+    font-family:'Fira sans', sans-serif;
+    padding: 20px;
+   
+    
+
+}
+.contactme h1{
+    text-align: center;
+    padding: 15px;
+    
+
+}
+.form-text{
+padding-top: 12px;
+font-size: 9px;
+}
+.mb-4{
+    padding-top: 11px;
+}
+.mb-5{
+    padding-top: 11px;
+    font-weight: bold;
+
+}
+.btn{
+    margin-top: 11px;
+    border-radius: 11px;
+    color: white;
+    background-color: blue;
+    text-align: center;
+    
+}
+.btn:hover{
+    background-color: white;
+    color: blue;
+
+}
+.skill{
+    height:20px;
+    width:300px;
+    border-radius: 20px;
+background-color: red;
+}
+.skill1{
+    height:20px;
+    width:270px;
+    border-radius: 20px;
+background-color: red;
+}
+.skill2{
+    height:20px;
+    width:250px;
+    border-radius: 20px;
+background-color: red;
+}
+.skill3{
+    height:20px;
+    width:237px;
+    border-radius: 20px;
+background-color: red;
+}
+.skill4{
+    height:20px;
+    width:287px;
+    border-radius: 20px;
+background-color: red;
+}
+@media (max-width:930px) {
+    *{
+        /*background-color: rgb(138, 20, 229);
+    }
+    .sidebar{
+        transform: translate(-443px,0px);
+    position: absolute;*/
+
+    }
+}
+.sidebarGo{
+    transform: translate(-443px,0px);
+position: absolute;}
+.ham{
+    position: absolute;
+    cursor:pointer;
+    top:10px;
+    left:10px;
+}
+.cro{
+    margin-left: 127px;
+}
+.intro{
+    margin-left: 70px;
+}
+.skillcontain{
+    padding-top: 30px;
+}
+.sk{
+    padding-top: 30px;
+}
+.ab{
+    text-align: center;
+}
+.blogcontain{
+    margin-left: 40px;
+}
+.blogit{
+    margin-left: 30px;
+}
+.hello{
+    color:rgb(244, 10, 197)
+}
+.i{
+    color: chartreuse;
+}
+.name{
+    color: cornflowerblue;
+}
+.s{
+    color: darkorchid;
+}
+.devpic{
+    border-radius: 60px;
+    border: 0.5px solid black;
+    /* font-size: larger; */
+    font-weight: bold;
+    height: 470px;
+   background-color: rgb(0, 6, 6);
+}
